@@ -1,0 +1,135 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-image: url("../images/login-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px;
+    min-height: 100vh;
+}
+
+.table-section {
+    width: 60%;
+    color: white;
+}
+
+.table-section h2 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+}
+
+table th {
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: bold;
+}
+
+table tr {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+table tr:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.container {
+    width: 35%;
+}
+
+.card {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 40px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+}
+
+.card h2 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 26px;
+}
+.card select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #555;
+    background: #222;
+    color: white;
+    font-size: 14px;
+}
+
+.card input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 1px solid #555;
+    background: #222;
+    color: white;
+    font-size: 14px;
+}
+
+.card input::placeholder {
+    color: #aaa;
+}
+
+
+.card button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: white;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: #e0e0e0;
+    transform: translateY(-2px);
+}
+
+
+table button {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: none;
+    background: crimson;
+    color: white;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+table button:hover {
+    opacity: 0.8;
+}
