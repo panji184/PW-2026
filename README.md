@@ -4,7 +4,7 @@ Sistem Pemesanan Tiket Pesawat adalah aplikasi berbasis web yang dibangun menggu
 
 Project ini dibuat sebagai implementasi konsep CRUD (Create, Read, Update, Delete) dan autentikasi pengguna dalam framework Laravel.
 
-#Cara Menjalankan 
+# Cara Menjalankan 
  
 1.terminal 'php serve artisan'
 
@@ -28,7 +28,8 @@ Composer
 XAMPP / Laragon
 
 # Fitur Utama
-# 1. Autentikasi Pengguna
+
+# 1.Autentikasi Pengguna
 
 
 1.Login
@@ -45,7 +46,7 @@ XAMPP / Laragon
 
 7.Menghapus data tiket penerbangan
 
-#Field data penerbangan:
+# 2.Field data penerbangan:
 
 1.Maskapai
 
@@ -62,7 +63,7 @@ XAMPP / Laragon
 
 
 
-#. Pemesanan Tiket (CRUD)
+ # 3. Autentikasi Pengguna
 
 Pengguna dapat:
 
