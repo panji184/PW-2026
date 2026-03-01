@@ -50,16 +50,13 @@ XAMPP / Laragon
 
 1.Maskapai
 
-
 2.Kota Asal
 
 3.Kota Tujuan
 
 4.Tanggal Berangkat
 
-5.Jam Berangkat
-
-6.Harga Tiket
+5.Harga Tiket
 
 
 
