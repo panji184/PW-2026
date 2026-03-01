@@ -63,15 +63,3 @@ XAMPP / Laragon
 
 
 
- # 3. Autentikasi Pengguna
-
-Pengguna dapat:
-
-✅ Memesan tiket
-
-📖 Melihat daftar pesanan
-
-✏️ Mengubah data pesanan
-
-❌ Mengahpus pesanan
-
