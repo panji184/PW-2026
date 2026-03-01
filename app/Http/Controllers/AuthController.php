@@ -21,7 +21,7 @@ class AuthController extends Controller
 
         if (Auth::attempt($credentials)) {
             $request->session()->regenerate();
-            return redirect()->route('tiket'); // redirect ke halaman tiket
+            return redirect()->route('tiket.index'); // redirect ke halaman tiket
         }
 
         return back()->withErrors([
