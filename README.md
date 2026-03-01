@@ -11,15 +11,20 @@ Project ini dibuat sebagai implementasi konsep CRUD (Create, Read, Update, Delet
 2.buka web http://127.0.0.1:8000/login
 
 3.login email:panji@gmail.com
-        pass :12345678
+        pass :12345678s
 
 # Teknologi yang Digunakan
 
 PHP 8.2
+
 Laravel 10/11
+
 MySQL
+
 Tailwind CSS
+
 Composer
+
 XAMPP / Laragon
 
 # Fitur Utama
@@ -27,20 +32,32 @@ XAMPP / Laragon
 
 
 1.Login
+
 2.Manajemen Data Penerbangan (CRUD)
+
 3.User dapat mengelola data tiket penerbangan:
+
 4.Menambahkan data penerbangan baru
+
 5.Melihat list tiket penerbangan
+
 6.Mengedit tiket penerbangan
+
 7.Menghapus data tiket penerbangan
 
 #Field data penerbangan:
 
 1.Maskapai
+
+
 2.Kota Asal
+
 3.Kota Tujuan
+
 4.Tanggal Berangkat
+
 5.Jam Berangkat
+
 6.Harga Tiket
 
 
